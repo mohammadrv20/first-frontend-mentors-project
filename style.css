@@ -1,0 +1,85 @@
+*{
+    font-family: "Red Hat Display", sans-serif; 
+}
+body{
+    background-image: url(./images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: hsl(225, 100%, 94%);
+
+}
+.card{
+    background-color: rgb(255, 255, 255);
+    border-radius: 14px;
+    width: 450px;
+    overflow: hidden;
+    margin: 50px  auto;
+}
+
+.information{
+    color: rgb(86, 108, 123);
+    padding: 10px;
+    line-height: 25px;
+    font-size: 16px;
+    width: 350px;
+    margin-left: 85px;
+
+}
+h2{
+    padding: 15px;
+    color: rgb(36, 9, 61);
+    font-weight: 700;
+    margin-left: 110px;
+    font-weight: 800;
+}
+
+.plan{
+    display: flex;
+    padding: 20px;
+    background-color:hsl(225, 100%, 98%);
+    justify-content: space-between;
+    border-radius: 20px;
+    width: 400px;
+    margin-left: 5px;
+}
+
+.button{
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+}
+
+.proceed-button{
+    color: white;
+    margin: 15px;
+    padding: 1rem 0 ;
+    font-family:"Red Hat Display", sans-serif;
+    font-weight: 700;
+    background-color: hsl(260, 73%, 55%);
+    border-radius: 14px;
+    box-shadow: 0px 20px 30px -8px rgb(99, 99, 165);
+    border: none;
+    cursor: pointer;
+    font-size: 0.9rem;
+
+}
+
+.cancel-button{
+    color: rgb(127, 174, 201);
+    padding: 10px;
+    margin: 10PX;
+    font-weight: 700;
+    background-color: white;
+    box-shadow: 0PX 0PX 20PX 0PX rgb(191, 186, 186);
+    border-radius: 14px;
+    border: none;
+    cursor: pointer;
+    font-size: 0.9rem;
+}
+
+a{
+    margin-top: 15.5px;
+    text-decoration: none;
+    color: hsl(260, 73%, 55%);
+    border: none;
+}
